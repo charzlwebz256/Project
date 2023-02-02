@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account Form</title>
+    <script src="signup.js"></script>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <form>
+        <div class="free">
+        <h3 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; font-size: 25px;">Create a New Account</h3>
+        <input type="text" onchange="handlerUsernameChange(this)" placeholder="Username" required>
+        <br>
+        <br>
+        <input type="text" onchange="handlerFirstNameChange()"  placeholder="First Name" required>
+        <input type="text" onchange="handlerLastNameChange()" placeholder="Last Name" required>
+        <br>
+        <br>
+        <input type="password" onchange="handlerpasswordChange()" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <br>
+        <br>
+        <input type="email" onchange="handleremailChange()" placeholder="Email Address" required>
+        <br>
+        <br>
+        <button type="submit" style="color: white; font-size: 20px;">Create Account</button>
+    </div>
+    </form>
+</body>
+<div class="ball"></div>
+<div class="ball00"></div>
+<div class="ball01"></div>
+
+</html>
